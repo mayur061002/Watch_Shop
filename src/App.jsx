@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Navbar from "./components/Navbar/Navbar"
 
 const App = () => {
+
+  
+
   return (
-    <div >App</div>
+    <div>
+      <Navbar />
+
+    </div>
   )
 }
 
